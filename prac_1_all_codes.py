@@ -1,4 +1,4 @@
-#Question_1
+#Question no:1
 name="Asha"
 age=18
 marks=91.5
@@ -10,7 +10,7 @@ print("Age:",age)
 print("Marks:",marks)
 print("City:",city)
 
-#Question_2
+#Question no:2
 a = 23.23
 print(type(a))
 print(a)
@@ -18,13 +18,13 @@ b = "23.23"
 print(type(b))
 print(b)
 
-#Question_3
+#Question no:3
 PI = 3.1415
 GRAVITY = 9.8
 MAX_USERS = 100
 print("Initial values: ", PI, GRAVITY, MAX_USERS)
 
-#Question_4
+#Question no:4
 integer_val = 25
 float_val = 12.5
 string_val = "Johnny.B.Goode"
@@ -41,7 +41,7 @@ print(type(string_val))
 print("\nBoolean Value: ", bool_val)
 print(type(bool_val))
 
-#Question_5
+#Question no:5
 age = input("Enter age: ")
 marks = input("Enter marks: ")
 #Display original type
@@ -58,7 +58,7 @@ print("\nAfter Conversion: ", age, marks)
 print("Total marks: ", total_marks)
 print("Age in 5 years: ", future_age)
 
-#Question_6
+#Question no:6
 n1 = 10
 f1 = 45.39
 res = n1 + f1
@@ -68,7 +68,7 @@ x = 15
 y = "YAAY!"
 #print(x + y) <--- Yields Error
 
-#Question_7
+#Question no:7
 a = 10
 b = 10
 print("a id: ", id(a))
@@ -79,7 +79,7 @@ print("\nAfter Converstion: ")
 print("a: ", a, "id: ", id(a))
 print("b: ", b, "id: ", id(b))
 
-#Question_8
+#Question no:8
 
 #Method_1
 i = 10
@@ -96,7 +96,7 @@ print("\nBefore Conversion(Method 2)", q, r)
 q,r = r,q
 print("\nAfter Conversion:", q, r)
 
-#Question_9
+#Question no:9
 
 v = input("Enter First Value: ")
 z = input("Enter Second Value: ")
@@ -120,7 +120,7 @@ elif isinstance(v, str) and isinstance(z, str):
 else:
     print("\nInvalid Output types: Add string OR Integer on BOTH sides")
 
-#Question_10
+#Question no:10
 age = 20
 marks_1 = 75
 is_adult = age>18
@@ -131,7 +131,7 @@ if is_adult and is_pass:
 else:
     print("THOU ART UNWORTHY!")
 
-#Question_11
+#Question no:11
 cel = float(input("Enter temp in celcius: "))
 fahr = (cel * 9/5) + 32
 print(f"\nTemperature in Fahrenheit", fahr)
