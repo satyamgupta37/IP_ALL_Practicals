@@ -1,4 +1,4 @@
-#Question_1
+#Question no:1
 
 n = int(input("Enter a number: "))
 if n>0:
@@ -6,7 +6,7 @@ if n>0:
 elif n<0:
     print("Number is negative.")
 
-#Question_2
+#Question no:2
 
 a = int(input("Enter a number: "))
 if a%2 == 0:
@@ -14,7 +14,7 @@ if a%2 == 0:
 else: 
     print("The number is odd.")
 
-#Question_3
+#Question no:3
 marks = int(input("Enter marks Max 100: "))
 if marks > 100:
     print("Marks only max till 100")
@@ -27,7 +27,7 @@ elif marks >= 70 and marks < 80:
 else:
     print("D Grade")
 
-#Question_4
+#Question no:4
 age = int(input("Enter an number: "))
 nation = input("Enter your Nationality: ")
 if age >= 18:
@@ -38,7 +38,7 @@ if age >= 18:
 else: 
     print("Not eligible to vote")
 
-#Question_5
+#Question no:5
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 num3 = int(input("Enter a number: "))
@@ -52,14 +52,14 @@ elif num2 >= num1 and num2 >= num3:
 else:
     print(f"{num3} is the greatest number.")
 
-#Question_6
+#Question no:6
 year = int(input("Enter a year: "))
 if year % 400 == 0 or year % 4 == 0 and year % 100 != 0:
     print(f"{year} is a leap year")
 else:
     print(f"{year} is not a leap year")
 
-#Question 7
+#Question no:7
 num_1 = float(input("Enter a number(1): "))
 num_2 = float(input("Enter a number(1): "))
 op = input("Enter operator(+, -, *, /)")
@@ -77,7 +77,7 @@ elif op == '*':
 else:
     print("Invalid Format")
 
-#Question_8
+#Question no:8
 amt = float(input("Enter amount: "))
 if amt >= 2000:
     disc = amt*0.20
@@ -90,7 +90,7 @@ elif amt == 1000:
 else:
     print("No Discount")
 
-#Question_9
+#Question no:9
 s1 = float(input("Enter Side_1: "))
 s2 = float(input("Enter Side_2: "))
 s3 = float(input("Enter Side_3: "))
@@ -102,7 +102,7 @@ elif s1 == s2 or s2 == s3 or s1 == s3:
 else:
     print("Scalene Triangle")
 
-#Question_10
+#Question no:10
 u = int(input("Enter a number: "))
 k = int(input("Enter a number: "))
 if u > k:
