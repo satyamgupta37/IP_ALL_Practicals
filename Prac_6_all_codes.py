@@ -1,6 +1,6 @@
-#Question_1
+#Question no:1
 
-matrix = [["a", "b", 1], 
+matrix = [["a", "b", 1],
           ["c", "d", 2], 
           ["e", "f", 3]]
 print("\nEntire matrix:")
@@ -10,7 +10,7 @@ print(matrix[0])
 print("\nFor element at (2, 3)")
 print(matrix[1][2])
 
-#Question_2
+#Question no:2
 matrix = [
     ["a", "b"], 
     ["c", "d"], 
@@ -30,7 +30,7 @@ print("\nColumn-wise traversal")
 for i in range(len(matrix[0])): 
     for j in range(len(matrix)): 
         print(f"Element at ({j}, {i}) is: {matrix[j][i]}")
-#Question_3
+#Question no:3
 m1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print("Matrix: ", m1)
@@ -50,7 +50,7 @@ for j in range(len(matrix[0])):
         col_sum += matrix[i][j]
     print(f"Sum of Column {j}: {col_sum}")
 
-#Question_4
+#Question no:4
 m1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 m2 = [[10, 11, 12], [13, 14, 15], [16, 17, 18]]
 result = [[0 for _ in range(len(m1[0]))] for _ in range(len(m1))]
@@ -64,7 +64,7 @@ for row in result:
         print(f"{element:4}", end="")
     print()
 
-#Question_5
+#Question no:5
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 result = [[0 for _ in range(len(matrix))] for _ in range(len(matrix[0]))]
 
@@ -80,7 +80,7 @@ for row in result:
         print(f"{element:4}", end="")
     print()
 
-#Question_6
+#Question no:6
 import numpy as np
 m1 = np.array([[1, 2, 3], [10, 20, 30], [40, 50, 60]])
 print("Custom Array")
@@ -100,7 +100,7 @@ print(m3)
 print(f"Shape: {m3.shape}")
 print(f"Data Type: {m3.dtype}")
 
-#Question_7
+#Question no:7
 import numpy as np
 matrix =np.array( [[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print("Original matrix:", matrix)
@@ -113,7 +113,7 @@ print("\nEntire row: ", e_row)
 sub_matrix = matrix[0:2, 0:2]
 print("\nSliced 2x2 Matrix: ", sub_matrix)
 
-#Question_8
+#Question no:8
 import numpy as np
 
 # Define two 3x3 matrices
@@ -150,7 +150,7 @@ scalar_result = m2 * 10
 print("\n5. Scalar Multiplication (m2 * 10):\n", scalar_result)
 
 
-#Question 9
+#Question no:9
 
 import numpy as np
 arr = np.array([10, 20, 30, 40, 50])
@@ -159,7 +159,7 @@ print("Median: ", np.median(arr))
 print("Standard Deviation: ", np.std(arr))
 
 
-#Questoin 10
+#Questoin no:10
 
 import numpy as np
 arr = np.array([1, 2, 3, 4, 5, 6])
@@ -171,7 +171,7 @@ print(new_arr)
 print("Reshaped again: ")
 print(arr.reshape(3, 2))
 
-#Question_11
+#Question no:11
 import numpy as np
 
 # Define two 3x3 matrices
@@ -199,7 +199,7 @@ transposed_result = multiplication_result.T
 print("\n--- Transposed Result ---")
 print(transposed_result)
 
-#Question_12
+#Question no:12
 import numpy as np
 #Student marks
 marks = np.array([[85,90, 78, 88], [70, 75, 80, 85], [95, 95, 85, 91]])
