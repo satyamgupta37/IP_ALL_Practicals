@@ -1,4 +1,4 @@
-#Queestion_1
+#Question no:1
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 print("Simple print:")
@@ -6,11 +6,11 @@ print(name,age)
 print("\n Formatted String:")
 print(f"My name is {name} and I am {age} years old.")    
 
-#Question_2
+#Question no:2
 num1=int(input("Enter first number: "))
 num2=int(input("Enter second number: "))
 print("Addition=",num1 + num2)
-print("Subtraction=",num1-nn=um2)
+print("Subtraction=",num1-um2)
 print("Multiplication=",num1*num2)
 print("Division=",num1/num2)
 
@@ -19,7 +19,7 @@ a=input("Enter first number: ")
 b=input("Enter second number: ")
 print("Addition=",a+b)
 
-#Quesstion_3
+#Question no:3
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 num3 = int(input("Enter a number: "))
@@ -34,7 +34,7 @@ x = num1+num2
 exp = x+num3/2
 print("Solution for Equation: ", exp)
 
-#Question_4
+#Question no:4
 
 #Expression 1: 10 + 5*2 = 20
 """
@@ -49,7 +49,7 @@ print("Solution for Equation: ", exp)
     Multiplication adn Division haev equal precedence
 """
 
-#Question_5
+#Question no:5
 salary_T = int(input("Enter salary(Basic): "))
 salary = float(salary_T)
 hra = salary*0.20
@@ -57,7 +57,7 @@ da = salary*0.10
 total_Sal = salary + hra + da
 print(f"{total_Sal} is your Net Salary")
 
-#Question_6
+#Question no:6
 
 #Rectangle
 rect_l = float(input("Enter Area of Rectangle: "))
@@ -73,7 +73,7 @@ radius = float(input("Enter Radius of Circle: "))
 circum = 2*math.pi*radius
 print(f"Curcumference of Circle is: {circum}")
 
-#Question_7
+#Question no:7
 km = float(input("Enter Distance in km: "))
 cel = float(input("Enter Temperature in Celcius: "))
 rupee = float(input("Enter Amount in ₹: "))
@@ -84,13 +84,13 @@ print("Meters: ", meters)
 print("Temp. in Fahrenheit: ", fahren)
 print("Rupee in Dollars: ", round(dollars, 2))
 
-#Question_8
-a,b,c = map(int(input("Enter 3 numbers: "))).split(1)
+#Question no:8
+a,b,c = map(int(input("Enter 3 numbers: "))).split()
 print("Sum: ", a+b+c)
 print("Product: ", a*b*c)
 print(f"Numbers Entered are {a}, {b}, {c}")
 
-#Question_9
+#Question no:9
 
 m1 = int(input("Enter marks for Subject 1: "))
 m2 = int(input("Enter marks for Subject 2: "))
@@ -109,7 +109,7 @@ elif marks >= 190 and marks <= 100:
 else:
     print("Grade D")
 
-#Question_10
+#Question no:10
 try: 
     z = int(input("Enter a number: "))
     v = int(input("Enter a number: "))
