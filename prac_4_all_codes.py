@@ -1,4 +1,4 @@
-#Question_1.
+#Question no:1
 print("Number from 1 to 10.")
 for i in range (1, 11):
     print(i)
@@ -7,7 +7,7 @@ print("\nEven Numbers.")
 for i in range (2, 11, 2):
     print(i)
 
-#Question_2.
+#Question no:2
 i = 1
 print("While Loop.")
 while i<= 10:
@@ -17,7 +17,7 @@ print("\nFor Loop.")
 for i in range (1, 11):
     print(i)
 
-#Question_3.
+#Question no:3
 n = int(input("How many numbers: "))
 sum = 0
 for i in range(n):
@@ -27,7 +27,7 @@ avg = sum/n
 print("Sum: ", sum)
 print("Average: ", avg)
 
-#Question_4.
+#Question no:4
 ##For Loop
 print("\nFor Loop")
 n = int(input("Enter a number: "))
@@ -46,12 +46,12 @@ while i <= n:
     i = i+1
 print("Factorial: ", fact)
 
-#Question_5.
+#Question no:5
 n = int(input("Enter a number: "))
 for i in range(1, 11):
     print(n, "x", i, "=", n*i)
 
-#Question_6.
+#Question no:6
 n = int(input("Enter a number"))
 original = n
 rev = 0
@@ -65,7 +65,7 @@ if original == rev:
 else:
     print("Not a Palindrome.")
 
-#Question_7
+#Question no:7
 n = int(input("Enter a number: "))
 total = 0
 even = 0
@@ -81,7 +81,7 @@ print("Total digits: ", total)
 print("Even digits: ", even)
 print("Odd digits: ", odd)
 
-#Question_8.
+#Question no:8
 n = int(input("Enter a number: "))
 
 if n < 2:
@@ -98,7 +98,7 @@ else:
     else:
         print("Composite Number")
 
-#Question_9.
+#Question no:9
 n = int(input("Enter a number of terms: "))
 a = 0
 b = 1
@@ -108,7 +108,7 @@ for i in range(n):
     a = b
     b = c
 
-#Question_10.
+#Question no:10
 for i in range(1, 5):
     for j in range(1, i + 1):
         print(j, end=" ")
