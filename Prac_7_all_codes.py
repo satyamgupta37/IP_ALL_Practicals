@@ -1,4 +1,4 @@
-##Question_1
+#Question no:1
 
 #List of numbers
 numbers = [10, 20, 30, 40]
@@ -13,7 +13,7 @@ print(type(numbers))
 print(type(froots))
 
 
-##Question_2
+#Question no:2
 
 numbers = [10, 20, 30, 40]
 items = ("A", "B", "C", "D")
@@ -23,7 +23,7 @@ print("Last: ", numbers[-1], items[-1])
 print("Middle: ", numbers[2], items[2])
 
 
-##Question_3
+#Question no:3
 numbers = [10, 20, 30, 40, 50]
 items = ("A", "B", "C", "D")
 print("\n", numbers[:3])
@@ -34,7 +34,7 @@ print(items[:3])
 print(items[-2:])
 print(items[::2])
 
-##Question_4
+#Question no:4
 numbers = [10, 20, 30, 40]
 numbers[1] = 50
 print("\n",numbers)
@@ -42,7 +42,7 @@ print("\n",numbers)
 items = ("A", "B", "C", "D")
 #items[1] = "X" ##This gives an error!
 
-##Question_5
+#Question no:5
 numbers = [10, 20, 30, 40]
 numbers.append(40)
 print(f"After Append: {numbers}")
@@ -51,7 +51,7 @@ numbers.insert(1, 15)
 print(f"After insert: {numbers}")
 
 
-##Question_6
+#Question no:6
 numbers = [10, 20, 30, 40]
 
 numbers.remove(30)
@@ -66,7 +66,7 @@ except ValueError:
     print("ERR: Element not found.")
 
 
-##Question_7
+#Question no:7
 numbers = [10, 20, 30, 40]
 
 numbers.sort()
@@ -78,7 +78,7 @@ print("Descending Order: ", numbers)
 numbers.reverse()
 print("Reversed: ", numbers)
 
-##Question_8
+#Question no:8
 numbers = [10, 20, 30, 20 ,40]
 
 print("Count of 20: ", numbers.count(20))
@@ -89,7 +89,7 @@ try:
 except ValueError:
     print("ERR: Element not found.")
 
-##Question_9
+#Question no:9
 
 matrix = [[1, 2],
           [3, 4]]
@@ -97,7 +97,7 @@ print(matrix)
 print("Element: ", matrix[0][1])
 print("Element: ", matrix[1][0])
 
-##Question_10
+#Question no:10
 numbers = [10, 20, 30, 40]
 t = tuple(numbers)
 print("TupleL ", t)
@@ -108,7 +108,7 @@ print("list", l)
 l.append("Orange")
 print("Modified List: "l)
 
-##Question_11
+#Question no:11
 numbers = [10, 20, 30, 40]
 fruits = ("Apple", "Banana", "Orange")
 
@@ -125,7 +125,7 @@ print("\nTuple Elements: ")
 for i in fruits:
     print(i)
 
-##Question_12
+#Question no:12
 cart = ["Milk", "Bread"]
 categories = ("Food", "Beverages", "Snacks")
 print("Categories", categories)
