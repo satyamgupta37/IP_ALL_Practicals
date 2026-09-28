@@ -37,4 +37,31 @@ for n in numbers:
     total +=n
 print("Minimum Sum:", total)
 
+#Question 6: Function for List Processing
+def process_list(lst):
+    print("Sum =", sum(lst))
+    print("Largest=", max(lst))
+
+list1 = [10,20,30]
+list2 = [5,15,25,35]
+
+process_list(list1)
+process_list(list2)
+
+#Question 7: Recursive Function - Factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n-1)
+
+num = 5
+print("Factorial =", factorial(num))
+#Loop-Based Approach
+fact = 1
+for i in range(1,6):
+    fact *= i
+
+print("Factorial =", fact)
+
+
     
