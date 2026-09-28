@@ -16,4 +16,25 @@ def square(num):
 result = square(5)
 print("Square =", result)
 print("Square + 10=", result + 10)
+
+#Question 4: Default and Keyword Arguments
+def student(name, age=18):
+    print("Name:",name)
+    print("Age:",age)
+student("Rahul")
+student(age=20, name="Priya")
+
+#Question 5: Bulit-in Functions Exploration
+numbers = [10,20,30,40,50]
+text = "Python"
+print("Length of list:", len(numbers))
+print("Length of string:", len(text))
+print("Sum:", sum(numbers))
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+total=0
+for n in numbers:
+    total +=n
+print("Minimum Sum:", total)
+
     
