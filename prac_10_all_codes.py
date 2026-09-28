@@ -15,3 +15,25 @@ print("Substring (2 to 7):", text[2:8])
 text = "Programming"
 print("Alternate Characters:", text[::2])
 print("Reverse String:", text[::-1])
+
+#Question 4: String Immutability Demonstration
+text = "Python"
+# text[0] = "J" #TypeError
+new_text = "J" + text[1:]
+print(new_text)
+
+#Question 5: Searching using in and not in
+text = "Python Programming"
+if "Python" in text:
+    print("Substring Found")
+else:
+    print("Substring Not Found")
+if "Java" not in text:
+    print("Java is not present")
+
+#Question 6: Using find() and index()
+text = "Python Programming"
+print(text.find("Programming"))
+print(text.find("Java"))
+print(text.index("Python"))
+
