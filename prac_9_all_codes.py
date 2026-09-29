@@ -63,6 +63,15 @@ for i in range(1,6):
 
 print("Factorial =", fact)
 
+#Question 8: Recursive Fibonacci Series
+def Fibonacci(n):
+    if n<= 1:
+       return n
+    return Fibonacci(n-1)+Fibonacci(n-2)
+terms = 7
+for i in range(terms):
+    print(Fibonacci(i), end="")
+
 #Question 9: Function Calling Function 
 def input_data():
     a = int(input("Enter first number: "))
@@ -93,6 +102,94 @@ def change_value():
 print("Value before function:", x)
 change_value()
 print("Value after function:", x)
+
+#Question 11: Menu-Driven Program using functions
+def addition():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print("Addition =", a + b)
+
+def prime_check():
+    n = int(input("Enter a number: "))
+
+    if n <= 1:
+        print("Not a prime number")
+        return
+
+    for i in range(2, n):
+        if n % i == 0:
+            print("Not a prime number")
+            return
+
+    print("Prime number")
+
+def factorial():
+    n = int(input("Enter a number: "))
+    fact = 1
+
+    for i in range(1, n + 1):
+        fact = fact * i
+
+    print("Factorial =", fact)
+
+
+print("----- MENU -----")
+print("1. Addition")
+print("2. Prime Check")
+print("3. Factorial")
+
+choice = int(input("Enter your choice: "))
+
+if choice == 1:
+    addition()
+elif choice == 2:
+    prime_check()
+elif choice == 3:
+    factorial()
+else:
+    print("Invalid choice")
+
+#Question 12: Real-World Problem - Student Result System
+def input_marks():
+    marks = []
+
+    for i in range(1, 6):
+        m = float(input("Enter marks of subject " + str(i) + ": "))
+        marks.append(m)
+    return marks
+
+def calculate_result(marks):
+    total = sum(marks)
+    percentage = total / 5
+    return total, percentage
+
+def assign_grade(percentage):
+    if percentage >= 90:
+        return "A+"
+    elif percentage >= 80:
+        return "A"
+    elif percentage >= 70:
+        return "B"
+    elif percentage >= 60:
+        return "C"
+    elif percentage >= 50:
+        return "D"
+    else:
+        return "F"
+
+def main():
+    marks = input_marks()
+
+    total, percentage = calculate_result(marks)
+
+    grade = assign_grade(percentage)
+
+    print("\n----- STUDENT RESULT -----")
+    print("Total Marks =", total)
+    print("Percentage =", percentage)
+    print("Grade =", grade)
+
+main()
 
 
     
