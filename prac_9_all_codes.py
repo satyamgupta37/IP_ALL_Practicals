@@ -63,5 +63,36 @@ for i in range(1,6):
 
 print("Factorial =", fact)
 
+#Question 9: Function Calling Function 
+def input_data():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    return a, b
+
+def processing(a, b):
+    return a + b
+
+def output(result):
+    print("Addition =", result)
+
+def main():
+    a, b = input_data()
+    result = processing(a, b)
+    output(result)
+
+main()
+
+#Question 10: Variable Scope (Local vs Global)
+x = 10
+
+def change_value():
+    global x
+    x = 20
+    print("Value inside function:", x)
+
+print("Value before function:", x)
+change_value()
+print("Value after function:", x)
+
 
     
